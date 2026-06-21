@@ -1,0 +1,132 @@
+{
+	"personal": {
+		"name": "Bartłomiej Umiński",
+		"title": "Software Engineer",
+		"location": "Warsaw, Poland",
+		"summary": "I am a hard-working programmer. I am able to create Full Stack applications in .NET technology. I pursue my goals, systematically, one step at a time. I believe in the importance of constant work on myself and my skills.",
+		"email": "contact.bartlomiejuminski@gmail.com",
+		"avatar": "/images/BUMI.jpg",
+		"links": [
+			{
+				"label": "GitHub",
+				"href": "https://github.com/FritzTheCat9",
+				"icon": "github.svg"
+			},
+			{
+				"label": "YouTube",
+				"href": "https://youtube.com/@bartlomiejuminski",
+				"icon": "youtube.svg"
+			},
+			{
+				"label": "LinkedIn",
+				"href": "https://www.linkedin.com/in/bart%C5%82omiej-umi%C5%84ski/",
+				"icon": "linkedin.svg"
+			}
+		]
+	},
+
+	"skills": {
+		"favourite": [
+			".NET / C#",
+			"Azure",
+			"TypeScript",
+			"Angular",
+			"Svelte / SvelteKit",
+			"Docker",
+			"PostgreSQL",
+			"Microservices"
+		],
+		"workingKnowledge": [
+			"Node.js",
+			"NestJS",
+			"React",
+			"Python",
+			"Kubernetes",
+			"Terraform",
+			"MongoDB",
+			"Redis",
+			"RabbitMQ"
+		]
+	},
+
+	"experience": [
+		{
+			"logo": "/images/Netcompany.png",
+			"company": "Netcompany",
+			"location": "Warsaw, Poland",
+			"locationType": "stationary work",
+			"employment": "Full-time",
+			"position": "Consultant / .NET Developer",
+			"from": "4/2025",
+			"to": "now",
+			"description": ["asdasd"],
+			"skills": [".NET", "Azure", "React", "SQL"]
+		},
+		{
+			"logo": "/images/FABRITY.png",
+			"company": "FABRITY",
+			"location": "Warsaw, Poland",
+			"locationType": "remote work",
+			"employment": "Full-time",
+			"position": "Junior Developer",
+			"from": "10/2021",
+			"to": "03/2023",
+			"description": [
+				"Developing new functionalities and maintenance of API projects in low code platform FastApp (C#, .NET, API, React)."
+			],
+			"skills": [".NET", "Azure", "React", "SQL"]
+		},
+		{
+			"logo": "/images/PB-en.webp",
+			"company": "Bialystok University of Technology",
+			"location": "Bialystok, Poland",
+			"locationType": "full-time studies",
+			"employment": "Full-time",
+			"position": "Engineer's degree in Computer Science",
+			"from": "10/2018",
+			"to": "03/2022",
+			"description": ["Grade: 5.0", "Title of praca inż "],
+			"skills": [".NET", "Azure", "React", "SQL"]
+		}
+	],
+
+	"projects": [
+		{
+			"name": "AI Meeting Assistant",
+			"description": "AI-powered tool for meeting transcription and summarization.",
+			"github": "",
+			"demo": "",
+			"featured": true,
+			"technologies": [
+				{ "name": "C#", "icon": "simple-icons:csharp" },
+				{ "name": ".NET", "icon": "simple-icons:dotnet" },
+				{ "name": "Azure", "icon": "simple-icons:microsoftazure" },
+				{ "name": "OpenAI", "icon": "simple-icons:openai" }
+			]
+		},
+		{
+			"name": "Portfolio Website",
+			"description": "Personal portfolio built with SvelteKit and TailwindCSS.",
+			"github": "",
+			"demo": "",
+			"featured": false,
+			"technologies": [
+				{ "name": "Svelte", "icon": "simple-icons:svelte" },
+				{ "name": "Tailwind", "icon": "simple-icons:tailwindcss" }
+			]
+		}
+	],
+
+	"courses": [
+		{
+			"title": "Azure Developer Associate",
+			"issuer": "Microsoft",
+			"year": 2024
+		},
+		{
+			"title": "Docker & Kubernetes Advanced",
+			"issuer": "Udemy",
+			"year": 2023
+		}
+	]
+}

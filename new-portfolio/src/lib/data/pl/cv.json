@@ -1,0 +1,15 @@
+{
+	"personal": {
+		"name": "Test PL",
+		"title": "Programista",
+		"summary": "Witaj świecie",
+		"github": "",
+		"linkedin": ""
+	},
+	"skills": {
+		"favourite": ["Svelte", "TypeScript"]
+	},
+	"experience": [],
+	"projects": [],
+	"courses": []
+}
