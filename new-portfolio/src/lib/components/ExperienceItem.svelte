@@ -1,4 +1,6 @@
 <script lang="ts">
+	import SkillsRow from './SkillsRow.svelte';
+
 	type Props = {
 		exp: any;
 		side: 'left' | 'right';
@@ -65,15 +67,7 @@
 
 					<!-- SKILLS -->
 					{#if exp.skills}
-						<div class="flex flex-wrap gap-2 mt-5">
-							{#each exp.skills as skill}
-								<span
-									class="text-xs px-2 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700"
-								>
-									{skill}
-								</span>
-							{/each}
-						</div>
+						<SkillsRow skills={exp.skills} />
 					{/if}
 				</div>
 			</div>
@@ -137,15 +131,7 @@
 					</ul>
 
 					{#if exp.skills}
-						<div class="flex flex-wrap gap-2 mt-5">
-							{#each exp.skills as skill}
-								<span
-									class="text-xs px-2 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700"
-								>
-									{skill}
-								</span>
-							{/each}
-						</div>
+						<SkillsRow skills={exp.skills} />
 					{/if}
 				</div>
 			</div>
