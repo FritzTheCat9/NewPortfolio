@@ -25,29 +25,63 @@
 		]
 	},
 
-	"skills": {
-		"favourite": [
-			".NET / C#",
-			"Azure",
-			"TypeScript",
-			"Angular",
-			"Svelte / SvelteKit",
-			"Docker",
-			"PostgreSQL",
-			"Microservices"
-		],
-		"workingKnowledge": [
-			"Node.js",
-			"NestJS",
-			"React",
-			"Python",
-			"Kubernetes",
-			"Terraform",
-			"MongoDB",
-			"Redis",
-			"RabbitMQ"
-		]
-	},
+	"skills": [
+		{
+			"sectionName": "Favourite Tech Stack",
+			"items": [
+				{ "name": "C#", "icon": "logos:c-sharp" },
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Minimal API", "icon": "mdi:web" },
+				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" },
+				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
+				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
+				{ "name": "MudBlazor", "icon": "devicon:blazor" },
+				{ "name": "Microsoft Fluent UI Blazor", "icon": "devicon:blazor" },
+				{ "name": "Svelte", "icon": "logos:svelte-icon" },
+				{ "name": "SvelteKit", "icon": "logos:svelte-icon" },
+				{ "name": "Git", "icon": "logos:git-icon" }
+			]
+		},
+		{
+			"sectionName": "Basic Knowledge",
+			"items": [
+				{ "name": "SQL", "icon": "mdi:database" },
+				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" },
+				{ "name": "PostgreSQL", "icon": "devicon:postgresql" },
+				{ "name": "Docker", "icon": "logos:docker-icon" },
+				{ "name": "JavaScript", "icon": "logos:javascript" },
+				{ "name": "TypeScript", "icon": "logos:typescript-icon" },
+				{ "name": "Vue", "icon": "logos:vue" },
+				{ "name": "Angular", "icon": "logos:angular-icon" },
+				{ "name": "React", "icon": "logos:react" },
+				{ "name": "HTML", "icon": "logos:html-5" },
+				{ "name": "CSS", "icon": "logos:css-3" },
+				{ "name": "Tailwind CSS", "icon": "logos:tailwindcss-icon" },
+				{ "name": "C++", "icon": "logos:c-plusplus" },
+				{ "name": "C", "icon": "logos:c" },
+				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
+				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "Microsoft Azure Functions", "image": "/images/MicrosoftAzureFunctions.png" },
+				{ "name": "Microsoft Power Apps", "image": "/images/MicrosoftPowerApps.png" },
+				{ "name": "Microsoft Dynamics 365", "image": "/images/MicrosoftDynamics365.svg" },
+				{
+					"name": "Microsoft Dynamics 365 Field Service",
+					"image": "/images/MicrosoftDynamics365FieldService.png"
+				},
+				{ "name": "Microsoft Dataverse", "image": "/images/MicrosoftDataverse.svg" },
+				{ "name": "Visual Studio", "icon": "logos:visual-studio" },
+				{ "name": "VS Code", "icon": "logos:visual-studio-code" }
+			]
+		},
+		{
+			"sectionName": "Other",
+			"items": [
+				{ "name": "MS Office", "icon": "logos:microsoft-icon" },
+				{ "name": "MS Teams", "icon": "logos:microsoft-teams" },
+				{ "name": "Driving Licence (Category B)", "icon": "mdi:car" }
+			]
+		}
+	],
 
 	"experience": [
 		{
@@ -60,7 +94,19 @@
 			"from": "4/2025",
 			"to": "now",
 			"description": ["asdasd"],
-			"skills": [".NET", "Azure", "React", "SQL"]
+			"skills": [
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Microsoft Dynamics 365", "image": "/images/MicrosoftDynamics365.svg" },
+				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
+				{ "name": "Microsoft Power Apps", "image": "/images/MicrosoftPowerApps.png" },
+				{
+					"name": "Microsoft Dynamics 365 Field Service",
+					"image": "/images/MicrosoftDynamics365FieldService.png"
+				},
+				{ "name": "Microsoft Azure Functions", "image": "/images/MicrosoftAzureFunctions.png" },
+				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" }
+			]
 		},
 		{
 			"logo": "/images/FABRITY.png",
@@ -74,7 +120,16 @@
 			"description": [
 				"Developing new functionalities and maintenance of API projects in low code platform FastApp (C#, .NET, API, React)."
 			],
-			"skills": [".NET", "Azure", "React", "SQL"]
+			"skills": [
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "API", "icon": "mdi:web" },
+				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
+				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" },
+				{ "name": "Angular", "icon": "logos:angular-icon" },
+				{ "name": "React", "icon": "logos:react" },
+				{ "name": "Git", "icon": "logos:git-icon" }
+			]
 		},
 		{
 			"logo": "/images/PB-en.webp",
@@ -86,7 +141,12 @@
 			"from": "10/2018",
 			"to": "03/2022",
 			"description": ["Grade: 5.0", "Title of praca inż "],
-			"skills": [".NET", "Azure", "React", "SQL"]
+			"skills": [
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "React", "icon": "logos:react" },
+				{ "name": "SQL", "icon": "mdi:database" }
+			]
 		}
 	],
 

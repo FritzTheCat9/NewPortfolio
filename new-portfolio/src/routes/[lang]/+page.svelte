@@ -4,6 +4,7 @@
 	import { setLang, type Lang } from '$lib/lang';
 	import LinkChip from '$lib/components/LinkChip.svelte';
 	import ExperienceTimeline from '$lib/components/ExperienceTimeline.svelte';
+	import SkillsSection from '$lib/components/SkillsSection.svelte';
 
 	let { data } = $props<{ data: PageData }>();
 
@@ -92,15 +93,9 @@
 
 	<!-- SKILLS -->
 	<section class="px-6 py-10 max-w-5xl mx-auto">
-		<h2 class="text-2xl font-semibold mb-4">Skills</h2>
+		<h2 class="text-2xl font-semibold mb-6">Skills</h2>
 
-		<div class="flex flex-wrap gap-2">
-			{#each cv.skills.favourite as skill}
-				<span class="px-3 py-1 bg-slate-800 rounded-full text-sm">
-					{skill}
-				</span>
-			{/each}
-		</div>
+		<SkillsSection skills={cv.skills} />
 	</section>
 
 	<!-- PROJECTS -->
