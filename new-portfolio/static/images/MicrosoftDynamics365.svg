@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="364.58" height="520.83" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 364.58 520.83">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter0_f);
+      }
+
+      .cls-2 {
+        filter: url(#filter1_f);
+      }
+
+      .cls-3 {
+        opacity: .32;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-10 {
+        mask: url(#mask);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5, .cls-9 {
+        isolation: isolate;
+        opacity: .5;
+      }
+
+      .cls-6 {
+        opacity: .24;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        fill: #b0adff;
+      }
+    </style>
+    <mask id="mask" x="0" y="0" width="391.67" height="555.71" maskUnits="userSpaceOnUse">
+      <g id="mask0">
+        <path class="cls-8" d="m364.58,166.91c0-22.01-13.84-41.65-34.57-49.05L27.84,9.94C14.27,5.1,0,15.16,0,29.56v164.09c0,8.8,5.53,16.66,13.83,19.62l135.42,48.36c13.57,4.85,27.84-5.21,27.84-19.62v-94.22c0-7.28,7.27-12.31,14.09-9.75l35.51,13.36c20.3,7.64,33.74,27.06,33.74,48.75v41.03l-152.98,55.9c-8.22,3-13.68,10.82-13.68,19.57v163.97c0,14.47,14.39,24.53,27.98,19.57l208.64-76.23c20.54-7.51,34.21-27.05,34.21-48.92v-208.13Z"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient" x1="119.92" y1="506.41" x2="216.87" y2="252.64" gradientTransform="translate(0 512.42) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b53ce"/>
+      <stop offset="1" stop-color="#7252aa"/>
+    </linearGradient>
+    <filter id="filter0_f">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur" stdDeviation="0.4"/>
+    </filter>
+    <filter id="filter1_f">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur" stdDeviation="4"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="229.17" y1="20.27" x2="229.17" y2="322.75" gradientTransform="translate(0 512.42) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2266e3"/>
+      <stop offset="1" stop-color="#ae7fe2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="364.58" y1="173.88" x2="260.81" y2="173.88" gradientTransform="translate(0 512.42) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#94b9ff"/>
+      <stop offset=".29" stop-color="#94b9ff" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#538fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-10">
+    <g>
+      <path class="cls-4" d="m0,0l364.58,130.21v178.77c0,14.41-14.27,24.46-27.84,19.62l-76.33-27.25v-101.22c0-21.7-13.45-41.12-33.76-48.76l-35.49-13.33c-6.81-2.56-14.08,2.48-14.08,9.75v123.79L0,208.33V0Z"/>
+      <g class="cls-1">
+        <path class="cls-6" d="m364.58,168.75h0c0,21.87-13.67,41.45-34.21,48.96l-236.62,86.46v208.33l270.83-98.96v-244.79Z"/>
+      </g>
+      <g class="cls-2">
+        <path class="cls-3" d="m364.58,177.08h0c0,21.87-13.67,41.45-34.21,48.96l-236.62,86.46v208.33l270.83-98.96v-244.79Z"/>
+      </g>
+      <path class="cls-7" d="m364.58,166.67h0c0,21.87-13.67,41.45-34.21,48.96l-236.62,86.46v208.33l270.83-98.96v-244.79Z"/>
+      <path class="cls-5" d="m364.58,166.67h0c0,21.87-13.67,41.45-34.21,48.96l-236.62,86.46v208.33l270.83-98.96v-244.79Z"/>
+      <path class="cls-9" d="m260.42,241.25l-83.38,30.5v122.18c0,7.28,7.28,12.31,14.09,9.75l35.56-13.38c20.3-7.64,33.74-27.06,33.74-48.74v-100.3Z"/>
+    </g>
+  </g>
+</svg>
