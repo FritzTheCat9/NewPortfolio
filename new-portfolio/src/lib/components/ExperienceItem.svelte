@@ -67,7 +67,7 @@
 
 					<!-- SKILLS -->
 					{#if exp.skills}
-						<SkillsRow skills={exp.skills} />
+						<SkillsRow skills={exp.skills} showName={false} />
 					{/if}
 				</div>
 			</div>
@@ -131,7 +131,7 @@
 					</ul>
 
 					{#if exp.skills}
-						<SkillsRow skills={exp.skills} />
+						<SkillsRow skills={exp.skills} showName={false} />
 					{/if}
 				</div>
 			</div>

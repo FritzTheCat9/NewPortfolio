@@ -3,9 +3,10 @@
 		name: string;
 		icon?: string;
 		image?: string;
+		showName?: boolean;
 	};
 
-	let { name, icon, image }: Props = $props();
+	let { name, icon, image, showName = true }: Props = $props();
 </script>
 
 <div
@@ -21,5 +22,7 @@
 		<img src={image} alt={name} class="w-4 h-4 object-contain" />
 	{/if}
 
-	<span>{name}</span>
+	{#if showName}
+		<span>{name}</span>
+	{/if}
 </div>
