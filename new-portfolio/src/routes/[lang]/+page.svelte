@@ -92,13 +92,6 @@
 		<ExperienceTimeline {cv} />
 	</section>
 
-	<!-- SKILLS -->
-	<section class="px-6 py-10 max-w-5xl mx-auto">
-		<h2 class="text-2xl font-semibold mb-6">Skills</h2>
-
-		<SkillsSection skills={cv.skills} />
-	</section>
-
 	<!-- PROJECTS -->
 	<section class="px-6 py-10 max-w-5xl mx-auto">
 		<h2 class="text-2xl font-semibold mb-6">Projects</h2>
@@ -108,6 +101,13 @@
 				<ProjectCard {project} />
 			{/each}
 		</div>
+	</section>
+
+	<!-- SKILLS -->
+	<section class="px-6 py-10 max-w-5xl mx-auto">
+		<h2 class="text-2xl font-semibold mb-6">Skills</h2>
+
+		<SkillsSection skills={cv.skills} />
 	</section>
 
 	<!-- FOOTER -->
