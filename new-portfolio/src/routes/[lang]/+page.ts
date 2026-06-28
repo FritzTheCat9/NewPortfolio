@@ -2,13 +2,20 @@ export const prerender = true;
 
 import type { PageLoad } from './$types';
 
+const cvs: Record<string, () => Promise<any>> = {
+	en: () => import('$lib/data/en/cv.json'),
+	pl: () => import('$lib/data/pl/cv.json')
+};
+
 export const load: PageLoad = async ({ params }) => {
 	const lang = params.lang ?? 'en';
 
-	const cv = await import(`$lib/data/${lang}/cv.json`);
+	const loader = cvs[lang] ?? cvs.en;
+
+	const cvModule = await loader();
 
 	return {
 		lang,
-		cv: cv.default
+		cv: cvModule.default
 	};
 };
