@@ -5,6 +5,7 @@
 	import LinkChip from '$lib/components/LinkChip.svelte';
 	import ExperienceTimeline from '$lib/components/ExperienceTimeline.svelte';
 	import SkillsSection from '$lib/components/SkillsSection.svelte';
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
 
 	let { data } = $props<{ data: PageData }>();
 
@@ -102,36 +103,9 @@
 	<section class="px-6 py-10 max-w-5xl mx-auto">
 		<h2 class="text-2xl font-semibold mb-6">Projects</h2>
 
-		<div class="grid md:grid-cols-2 gap-4">
+		<div class="grid grid-cols-1 gap-8">
 			{#each cv.projects as project}
-				<div class="p-4 rounded-lg bg-slate-900 border border-slate-800">
-					<h3 class="text-lg font-semibold mb-2">
-						{project.name}
-					</h3>
-
-					<p class="text-slate-400 text-sm mb-4">
-						{project.description}
-					</p>
-
-					<!-- tech tags -->
-					<div class="flex flex-wrap gap-2 mb-4">
-						{#each project.technologies as tech}
-							<span class="text-xs px-2 py-1 bg-slate-800 rounded">
-								{tech.name}
-							</span>
-						{/each}
-					</div>
-
-					<div class="flex gap-3 text-sm">
-						{#if project.github}
-							<a class="text-blue-400 hover:underline" href={project.github}> GitHub </a>
-						{/if}
-
-						{#if project.demo}
-							<a class="text-blue-400 hover:underline" href={project.demo}> Demo </a>
-						{/if}
-					</div>
-				</div>
+				<ProjectCard {project} />
 			{/each}
 		</div>
 	</section>

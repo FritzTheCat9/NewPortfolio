@@ -152,27 +152,70 @@
 
 	"projects": [
 		{
-			"name": "AI Meeting Assistant",
-			"description": "AI-powered tool for meeting transcription and summarization.",
-			"github": "",
-			"demo": "",
-			"featured": true,
+			"name": "YoutubeLinks",
+			"description": "I achieved 8th place in the 100 Commits competition organized by DevMentors. Over 100 days, I developed the YoutubeLinks application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/FritzTheCat9/YoutubeLinks",
+					"icon": "github.svg"
+				},
+				{
+					"label": "YouTube",
+					"href": "https://www.youtube.com/watch?v=G1gY-jynpu0",
+					"icon": "youtube.svg"
+				}
+			],
 			"technologies": [
 				{ "name": "C#", "icon": "simple-icons:csharp" },
 				{ "name": ".NET", "icon": "simple-icons:dotnet" },
-				{ "name": "Azure", "icon": "simple-icons:microsoftazure" },
-				{ "name": "OpenAI", "icon": "simple-icons:openai" }
+				{ "name": "Minimal API", "icon": "mdi:web" },
+				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
+				{ "name": "MudBlazor", "icon": "devicon:blazor" },
+				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
+				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" }
+			],
+			"images": [
+				"/images/projects/YoutubeLinks/1_users.png",
+				"/images/projects/YoutubeLinks/2_playlists.png",
+				"/images/projects/YoutubeLinks/3_links.png",
+				"/images/projects/YoutubeLinks/4_playlist_downloading.png",
+				"/images/projects/YoutubeLinks/5_links_grid_view.png",
+				"/images/projects/YoutubeLinks/100commitow_results_photo.jpeg",
+				"/images/projects/YoutubeLinks/100commitow_results.jpeg"
 			]
 		},
 		{
-			"name": "Portfolio Website",
-			"description": "Personal portfolio built with SvelteKit and TailwindCSS.",
-			"github": "",
-			"demo": "",
-			"featured": false,
+			"name": "FreakFightsFan",
+			"description": "The FreakFightsFan application contains information and statistics about federations, events, fights and fighters of freak fight federations. I created this application because I wanted to practice building Full Stack applications with .NET technology. (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture)",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/FritzTheCat9/FreakFightsFan",
+					"icon": "github.svg"
+				}
+			],
 			"technologies": [
-				{ "name": "Svelte", "icon": "simple-icons:svelte" },
-				{ "name": "Tailwind", "icon": "simple-icons:tailwindcss" }
+				{ "name": "C#", "icon": "simple-icons:csharp" },
+				{ "name": ".NET", "icon": "simple-icons:dotnet" },
+				{ "name": "Minimal API", "icon": "mdi:web" },
+				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
+				{ "name": "MudBlazor", "icon": "devicon:blazor" },
+				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
+				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" }
+			],
+			"images": [
+				"/images/projects/FreakFightsFan/1_federations.png",
+				"/images/projects/FreakFightsFan/2_events.png",
+				"/images/projects/FreakFightsFan/3_fights.png",
+				"/images/projects/FreakFightsFan/4_create_fight_dialog.png",
+				"/images/projects/FreakFightsFan/5_fighters.png",
+				"/images/projects/FreakFightsFan/6_fighter_profile.png",
+				"/images/projects/FreakFightsFan/7_users.png",
+				"/images/projects/FreakFightsFan/8_dictionaries.png",
+				"/images/projects/FreakFightsFan/9_dictionary_items.png",
+				"/images/projects/FreakFightsFan/10_images.png",
+				"/images/projects/FreakFightsFan/11_settings.png"
 			]
 		}
 	],
