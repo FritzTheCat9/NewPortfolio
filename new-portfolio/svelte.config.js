@@ -12,7 +12,7 @@ export default {
 			base: dev ? '' : '/Portfolio'
 		},
 		prerender: {
-			entries: ['/', '/en', '/pl']
+			entries: ['/', '/en', '/pl', '/en/', '/pl/']
 		}
 	}
 };

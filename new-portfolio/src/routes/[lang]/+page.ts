@@ -1,5 +1,8 @@
-export const prerender = false;
+export const prerender = true;
 
+export function entries() {
+	return [{ lang: 'en' }, { lang: 'pl' }];
+}
 import type { PageLoad } from './$types';
 
 const cvs: Record<string, () => Promise<any>> = {
