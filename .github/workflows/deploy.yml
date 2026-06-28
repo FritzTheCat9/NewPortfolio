@@ -2,42 +2,38 @@ name: Frontend Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches: [main]
+    paths:
+      - "new-portfolio/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
       - name: Install dependencies
-        working-directory: new-portfolio
-        run: npm install
+        run: |
+          cd new-portfolio
+          npm install
 
-      - name: Build project
-        working-directory: new-portfolio
-        run: npm run build
+      - name: Build
         env:
-          BASE_PATH: "/NewPortfolio"
+          BASE_PATH: "/Portfolio"
+        run: |
+          cd new-portfolio
+          npm run build
 
-      - name: Upload Pages artifact
+      - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: new-portfolio/build
+          path: "new-portfolio/build/"
 
   deploy:
     needs: build
@@ -49,7 +45,9 @@ jobs:
 
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
+        id: deployment
         uses: actions/deploy-pages@v4
