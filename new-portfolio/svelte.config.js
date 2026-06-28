@@ -10,6 +10,9 @@ export default {
 		adapter: adapter(),
 		paths: {
 			base: dev ? '' : ''
+		},
+		prerender: {
+			entries: ['/', '/en', '/pl']
 		}
 	}
 };
