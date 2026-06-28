@@ -88,14 +88,18 @@
 
 	<!-- EXPERIENCE -->
 	<section class="px-6 py-10 max-w-5xl mx-auto">
-		<h2 class="text-2xl font-semibold mb-6">Experience</h2>
+		<h2 class="text-2xl font-semibold mb-6">
+			{cv.sections.experience}
+		</h2>
 
 		<ExperienceTimeline {cv} />
 	</section>
 
 	<!-- PROJECTS -->
 	<section class="px-6 py-10 max-w-5xl mx-auto">
-		<h2 class="text-2xl font-semibold mb-6">Projects</h2>
+		<h2 class="text-2xl font-semibold mb-6">
+			{cv.sections.projects}
+		</h2>
 
 		<div class="grid grid-cols-1 gap-8">
 			{#each cv.projects as project}
@@ -106,14 +110,18 @@
 
 	<!-- COURSES -->
 	<section class="px-6 py-10 max-w-5xl mx-auto">
-		<h2 class="text-2xl font-semibold mb-6">Courses & Certifications</h2>
+		<h2 class="text-2xl font-semibold mb-6">
+			{cv.sections.courses}
+		</h2>
 
 		<CoursesSection courses={cv.courses} />
 	</section>
 
 	<!-- SKILLS -->
 	<section class="px-6 py-10 max-w-5xl mx-auto">
-		<h2 class="text-2xl font-semibold mb-6">Skills</h2>
+		<h2 class="text-2xl font-semibold mb-6">
+			{cv.sections.skills}
+		</h2>
 
 		<SkillsSection skills={cv.skills} />
 	</section>

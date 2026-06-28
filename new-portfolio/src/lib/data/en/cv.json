@@ -1,4 +1,10 @@
 {
+	"sections": {
+		"experience": "Experience",
+		"projects": "Projects",
+		"courses": "Courses & Certifications",
+		"skills": "Skills"
+	},
 	"personal": {
 		"name": "Bartłomiej Umiński",
 		"title": "Software Engineer",
