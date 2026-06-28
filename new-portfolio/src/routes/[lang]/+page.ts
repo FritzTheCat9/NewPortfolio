@@ -3,6 +3,7 @@ export const prerender = true;
 export function entries() {
 	return [{ lang: 'en' }, { lang: 'pl' }];
 }
+
 import type { PageLoad } from './$types';
 
 const cvs: Record<string, () => Promise<any>> = {
@@ -12,7 +13,6 @@ const cvs: Record<string, () => Promise<any>> = {
 
 export const load: PageLoad = async ({ params }) => {
 	const lang = params.lang ?? 'en';
-
 	const loader = cvs[lang] ?? cvs.en;
 
 	const cvModule = await loader();
