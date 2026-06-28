@@ -6,9 +6,7 @@ export default {
 
 	kit: {
 		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined
+			fallback: 'index.html'
 		})
 	}
 };
