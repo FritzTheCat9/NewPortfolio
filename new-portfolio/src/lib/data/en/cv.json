@@ -167,8 +167,8 @@
 				}
 			],
 			"technologies": [
-				{ "name": "C#", "icon": "simple-icons:csharp" },
-				{ "name": ".NET", "icon": "simple-icons:dotnet" },
+				{ "name": "C#", "icon": "logos:c-sharp" },
+				{ "name": ".NET", "icon": "logos:dotnet" },
 				{ "name": "Minimal API", "icon": "mdi:web" },
 				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
 				{ "name": "MudBlazor", "icon": "devicon:blazor" },
@@ -196,8 +196,8 @@
 				}
 			],
 			"technologies": [
-				{ "name": "C#", "icon": "simple-icons:csharp" },
-				{ "name": ".NET", "icon": "simple-icons:dotnet" },
+				{ "name": "C#", "icon": "logos:c-sharp" },
+				{ "name": ".NET", "icon": "logos:dotnet" },
 				{ "name": "Minimal API", "icon": "mdi:web" },
 				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
 				{ "name": "MudBlazor", "icon": "devicon:blazor" },
