@@ -146,7 +146,10 @@
 			"position": "Engineer's degree in Computer Science",
 			"from": "10/2018",
 			"to": "03/2022",
-			"description": ["Grade: 5.0", "Title of praca inż "],
+			"description": [
+				"Final grade: 5.0",
+				"Bachelor's thesis: \"A Social Networking Platform Connecting People with Similar Interests\""
+			],
 			"skills": [
 				{ "name": ".NET", "icon": "logos:dotnet" },
 				{ "name": "Azure", "icon": "logos:microsoft-azure" },
@@ -235,7 +238,7 @@
 			"link": "https://platform.devmentors.io/courses/modularny-monolit"
 		},
 		{
-			"name": "SOLIDne Web API",
+			"name": "SOLID Web API",
 			"issuer": "DevMentors",
 			"date": "2025",
 			"image": "/images/courses/solidne-web-api.png",

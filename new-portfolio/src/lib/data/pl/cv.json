@@ -1,15 +1,255 @@
 {
+	"sections": {
+		"experience": "Doświadczenie",
+		"projects": "Projekty",
+		"courses": "Kursy i Certyfikaty",
+		"skills": "Umiejętności"
+	},
 	"personal": {
-		"name": "Test PL",
-		"title": "Programista",
-		"summary": "Witaj świecie",
-		"github": "",
-		"linkedin": ""
+		"name": "Bartłomiej Umiński",
+		"title": "Inżynier Oprogramowania",
+		"location": "Warszawa, Polska",
+		"summary": "I am a hard-working programmer. I am able to create Full Stack applications in .NET technology. I pursue my goals, systematically, one step at a time. I believe in the importance of constant work on myself and my skills.",
+		"email": "contact.bartlomiejuminski@gmail.com",
+		"avatar": "/images/BUMI.jpg",
+		"links": [
+			{
+				"label": "GitHub",
+				"href": "https://github.com/FritzTheCat9",
+				"icon": "github.svg"
+			},
+			{
+				"label": "YouTube",
+				"href": "https://youtube.com/@bartlomiejuminski",
+				"icon": "youtube.svg"
+			},
+			{
+				"label": "LinkedIn",
+				"href": "https://www.linkedin.com/in/bart%C5%82omiej-umi%C5%84ski/",
+				"icon": "linkedin.svg"
+			}
+		]
 	},
-	"skills": {
-		"favourite": ["Svelte", "TypeScript"]
-	},
-	"experience": [],
-	"projects": [],
-	"courses": []
+
+	"skills": [
+		{
+			"sectionName": "Ulubione technologie",
+			"items": [
+				{ "name": "C#", "icon": "logos:c-sharp" },
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Minimal API", "icon": "mdi:web" },
+				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" },
+				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
+				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
+				{ "name": "MudBlazor", "icon": "devicon:blazor" },
+				{ "name": "Microsoft Fluent UI Blazor", "icon": "devicon:blazor" },
+				{ "name": "Svelte", "icon": "logos:svelte-icon" },
+				{ "name": "SvelteKit", "icon": "logos:svelte-icon" },
+				{ "name": "Git", "icon": "logos:git-icon" }
+			]
+		},
+		{
+			"sectionName": "Podstawowa wiedza",
+			"items": [
+				{ "name": "SQL", "icon": "mdi:database" },
+				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" },
+				{ "name": "PostgreSQL", "icon": "devicon:postgresql" },
+				{ "name": "Docker", "icon": "logos:docker-icon" },
+				{ "name": "JavaScript", "icon": "logos:javascript" },
+				{ "name": "TypeScript", "icon": "logos:typescript-icon" },
+				{ "name": "Vue", "icon": "logos:vue" },
+				{ "name": "Angular", "icon": "logos:angular-icon" },
+				{ "name": "React", "icon": "logos:react" },
+				{ "name": "HTML", "icon": "logos:html-5" },
+				{ "name": "CSS", "icon": "logos:css-3" },
+				{ "name": "Tailwind CSS", "icon": "logos:tailwindcss-icon" },
+				{ "name": "C++", "icon": "logos:c-plusplus" },
+				{ "name": "C", "icon": "logos:c" },
+				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
+				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "Microsoft Azure Functions", "image": "/images/MicrosoftAzureFunctions.png" },
+				{ "name": "Microsoft Power Apps", "image": "/images/MicrosoftPowerApps.png" },
+				{ "name": "Microsoft Dynamics 365", "image": "/images/MicrosoftDynamics365.svg" },
+				{
+					"name": "Microsoft Dynamics 365 Field Service",
+					"image": "/images/MicrosoftDynamics365FieldService.png"
+				},
+				{ "name": "Microsoft Dataverse", "image": "/images/MicrosoftDataverse.svg" },
+				{ "name": "Visual Studio", "icon": "logos:visual-studio" },
+				{ "name": "VS Code", "icon": "logos:visual-studio-code" }
+			]
+		},
+		{
+			"sectionName": "Inne",
+			"items": [
+				{ "name": "MS Office", "icon": "logos:microsoft-icon" },
+				{ "name": "MS Teams", "icon": "logos:microsoft-teams" },
+				{ "name": "Prawo jazdy (Kategoria B)", "icon": "mdi:car" }
+			]
+		}
+	],
+
+	"experience": [
+		{
+			"logo": "/images/Netcompany.png",
+			"company": "Netcompany",
+			"location": "Warszawa, Polska",
+			"locationType": "praca stacjonarna",
+			"employment": "Pełny etat",
+			"position": "Konsultant / Programista .NET",
+			"from": "4/2025",
+			"to": "obecnie",
+			"description": ["asdasd"],
+			"skills": [
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Microsoft Dynamics 365", "image": "/images/MicrosoftDynamics365.svg" },
+				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
+				{ "name": "Microsoft Power Apps", "image": "/images/MicrosoftPowerApps.png" },
+				{
+					"name": "Microsoft Dynamics 365 Field Service",
+					"image": "/images/MicrosoftDynamics365FieldService.png"
+				},
+				{ "name": "Microsoft Azure Functions", "image": "/images/MicrosoftAzureFunctions.png" },
+				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" }
+			]
+		},
+		{
+			"logo": "/images/FABRITY.png",
+			"company": "FABRITY",
+			"location": "Warszawa, Polska",
+			"locationType": "praca zdalna",
+			"employment": "Pełny etat",
+			"position": "Młodszy Programista .NET",
+			"from": "10/2021",
+			"to": "03/2023",
+			"description": [
+				"Developing new functionalities and maintenance of API projects in low code platform FastApp (C#, .NET, API, React)."
+			],
+			"skills": [
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "API", "icon": "mdi:web" },
+				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
+				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" },
+				{ "name": "Angular", "icon": "logos:angular-icon" },
+				{ "name": "React", "icon": "logos:react" },
+				{ "name": "Git", "icon": "logos:git-icon" }
+			]
+		},
+		{
+			"logo": "/images/PB-en.webp",
+			"company": "Politechnika Białostocka",
+			"location": "Białystok, Polska",
+			"locationType": "studia stacjonarne dzienne",
+			"employment": null,
+			"position": "Inżynier informatyki",
+			"from": "10/2018",
+			"to": "03/2022",
+			"description": [
+				"Ocena końcowa: 5.0",
+				"Temat pracy dyplomowej inżynierskiej: \"Portal społecznościowy łączący ludzi o podobnych zainteresowaniach\""
+			],
+			"skills": [
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Azure", "icon": "logos:microsoft-azure" },
+				{ "name": "React", "icon": "logos:react" },
+				{ "name": "SQL", "icon": "mdi:database" }
+			]
+		}
+	],
+
+	"projects": [
+		{
+			"name": "YoutubeLinks",
+			"description": "I achieved 8th place in the 100 Commits competition organized by DevMentors. Over 100 days, I developed the YoutubeLinks application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/FritzTheCat9/YoutubeLinks",
+					"icon": "github.svg"
+				},
+				{
+					"label": "YouTube",
+					"href": "https://www.youtube.com/watch?v=G1gY-jynpu0",
+					"icon": "youtube.svg"
+				}
+			],
+			"technologies": [
+				{ "name": "C#", "icon": "logos:c-sharp" },
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Minimal API", "icon": "mdi:web" },
+				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
+				{ "name": "MudBlazor", "icon": "devicon:blazor" },
+				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
+				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" }
+			],
+			"images": [
+				"/images/projects/YoutubeLinks/1_users.png",
+				"/images/projects/YoutubeLinks/2_playlists.png",
+				"/images/projects/YoutubeLinks/3_links.png",
+				"/images/projects/YoutubeLinks/4_playlist_downloading.png",
+				"/images/projects/YoutubeLinks/5_links_grid_view.png",
+				"/images/projects/YoutubeLinks/100commitow_results_photo.jpeg",
+				"/images/projects/YoutubeLinks/100commitow_results.jpeg"
+			]
+		},
+		{
+			"name": "FreakFightsFan",
+			"description": "The FreakFightsFan application contains information and statistics about federations, events, fights and fighters of freak fight federations. I created this application because I wanted to practice building Full Stack applications with .NET technology. (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture)",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/FritzTheCat9/FreakFightsFan",
+					"icon": "github.svg"
+				}
+			],
+			"technologies": [
+				{ "name": "C#", "icon": "logos:c-sharp" },
+				{ "name": ".NET", "icon": "logos:dotnet" },
+				{ "name": "Minimal API", "icon": "mdi:web" },
+				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
+				{ "name": "MudBlazor", "icon": "devicon:blazor" },
+				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
+				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" }
+			],
+			"images": [
+				"/images/projects/FreakFightsFan/1_federations.png",
+				"/images/projects/FreakFightsFan/2_events.png",
+				"/images/projects/FreakFightsFan/3_fights.png",
+				"/images/projects/FreakFightsFan/4_create_fight_dialog.png",
+				"/images/projects/FreakFightsFan/5_fighters.png",
+				"/images/projects/FreakFightsFan/6_fighter_profile.png",
+				"/images/projects/FreakFightsFan/7_users.png",
+				"/images/projects/FreakFightsFan/8_dictionaries.png",
+				"/images/projects/FreakFightsFan/9_dictionary_items.png",
+				"/images/projects/FreakFightsFan/10_images.png",
+				"/images/projects/FreakFightsFan/11_settings.png"
+			]
+		}
+	],
+
+	"courses": [
+		{
+			"name": "Modularny Monolit",
+			"issuer": "DevMentors",
+			"date": "2025",
+			"image": "/images/courses/modularny-monolit.png",
+			"link": "https://platform.devmentors.io/courses/modularny-monolit"
+		},
+		{
+			"name": "SOLIDne Web API",
+			"issuer": "DevMentors",
+			"date": "2025",
+			"image": "/images/courses/solidne-web-api.png",
+			"link": "https://platform.devmentors.io/courses/solidne-web-api"
+		},
+		{
+			"name": "Nauka programowania aplikacji internetowych typu SPA",
+			"issuer": "Politechnika Białostocka",
+			"date": "2025",
+			"image": "/images/courses/pb_course.png",
+			"link": "https://navoica.pl/courses/course-v1:Politechnika_Bialostocka+AIOK+2022_S3/about"
+		}
+	]
 }

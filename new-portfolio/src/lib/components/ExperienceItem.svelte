@@ -51,7 +51,7 @@
 
 					{#if exp.employment}
 						<div class="text-xs text-slate-400 mt-2">
-							Employment: <span class="text-slate-300">{exp.employment}</span>
+							<span class="text-slate-300">{exp.employment}</span>
 						</div>
 					{/if}
 
@@ -117,7 +117,7 @@
 
 					{#if exp.employment}
 						<div class="text-xs text-slate-400 mt-2">
-							Employment: <span class="text-slate-300">{exp.employment}</span>
+							<span class="text-slate-300">{exp.employment}</span>
 						</div>
 					{/if}
 
