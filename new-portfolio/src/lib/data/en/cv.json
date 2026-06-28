@@ -222,14 +222,25 @@
 
 	"courses": [
 		{
-			"title": "Azure Developer Associate",
-			"issuer": "Microsoft",
-			"year": 2024
+			"name": "Modular Monolith",
+			"issuer": "DevMentors",
+			"date": "2025",
+			"image": "/images/courses/modularny-monolit.png",
+			"link": "https://platform.devmentors.io/courses/modularny-monolit"
 		},
 		{
-			"title": "Docker & Kubernetes Advanced",
-			"issuer": "Udemy",
-			"year": 2023
+			"name": "SOLIDne Web API",
+			"issuer": "DevMentors",
+			"date": "2025",
+			"image": "/images/courses/solidne-web-api.png",
+			"link": "https://platform.devmentors.io/courses/solidne-web-api"
+		},
+		{
+			"name": "Learning to Program SPA-Type Web Applications",
+			"issuer": "Bialystok University of Technology",
+			"date": "2025",
+			"image": "/images/courses/pb_course.png",
+			"link": "https://navoica.pl/courses/course-v1:Politechnika_Bialostocka+AIOK+2022_S3/about"
 		}
 	]
 }

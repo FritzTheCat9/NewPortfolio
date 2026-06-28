@@ -6,6 +6,7 @@
 	import ExperienceTimeline from '$lib/components/ExperienceTimeline.svelte';
 	import SkillsSection from '$lib/components/SkillsSection.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import CoursesSection from '$lib/components/Courses.svelte';
 
 	let { data } = $props<{ data: PageData }>();
 
@@ -101,6 +102,13 @@
 				<ProjectCard {project} />
 			{/each}
 		</div>
+	</section>
+
+	<!-- COURSES -->
+	<section class="px-6 py-10 max-w-5xl mx-auto">
+		<h2 class="text-2xl font-semibold mb-6">Courses & Certifications</h2>
+
+		<CoursesSection courses={cv.courses} />
 	</section>
 
 	<!-- SKILLS -->
