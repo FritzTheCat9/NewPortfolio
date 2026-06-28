@@ -9,7 +9,7 @@ export default {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : ''
+			base: dev ? '' : '/Portfolio'
 		},
 		prerender: {
 			entries: ['/', '/en', '/pl']
