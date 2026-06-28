@@ -8,7 +8,7 @@ export default {
 		adapter: adapter(),
 
 		paths: {
-			base: ''
+			base: dev ? '' : '/NewPortfolio'
 		},
 
 		prerender: {
