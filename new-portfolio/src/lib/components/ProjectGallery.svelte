@@ -16,6 +16,8 @@
 	let dragging = false;
 	let moved = false;
 
+	const offsetX = typeof window !== 'undefined' && window.innerWidth < 640 ? 24 : 40;
+
 	function open() {
 		opened = true;
 	}
@@ -76,7 +78,7 @@
 <div
 	role="region"
 	aria-label="Project image gallery"
-	class="relative w-full h-90 flex items-center justify-center select-none z-0"
+	class="relative w-full h-55 sm:h-70 md:h-90 flex items-center justify-center select-none overflow-hidden z-0"
 	onpointermove={onPointerMove}
 	onpointerup={onPointerUp}
 	onpointercancel={onPointerUp}
@@ -85,16 +87,14 @@
 		{@const offset = i - index}
 
 		<div
-			class="absolute transition-all duration-500 ease-out"
+			class="absolute flex items-center justify-center transition-all duration-500 ease-out px-2 sm:px-4"
 			style={`
 				transform:
-					translateX(${offset * 40 + deltaX * 0.25}px)
+					translateX(${offset * offsetX + deltaX * 0.15}px)
 					scale(${offset === 0 ? 1 : 0.85})
 					rotateY(${offset * -10}deg);
 
 				opacity: ${Math.abs(offset) > 2 ? 0 : 1};
-
-				/* IMPORTANT: no high z-index */
 				z-index: ${-Math.abs(offset)};
 			`}
 		>
@@ -104,7 +104,12 @@
 				onclick={onClick}
 				aria-label="Open image in viewer"
 			>
-				<img src={img} alt="" class="w-150 h-80 object-cover" draggable="false" />
+				<img
+					src={img}
+					alt=""
+					class="w-full h-full max-h-55 sm:max-h-70 md:max-h-80 max-w-[95vw] sm:max-w-150 object-contain bg-slate-950 rounded-xl"
+					draggable="false"
+				/>
 			</button>
 		</div>
 	{/each}

@@ -26,7 +26,7 @@
 </script>
 
 <div
-	class="w-full rounded-2xl border border-slate-800 bg-slate-900 p-8 transition hover:border-blue-500/40"
+	class="w-full rounded-2xl border border-slate-800 bg-slate-900 p-4 sm:p-6 md:p-8 overflow-hidden transition hover:border-blue-500/40"
 >
 	<!-- GALLERY -->
 	<ProjectGallery images={project.images} />
