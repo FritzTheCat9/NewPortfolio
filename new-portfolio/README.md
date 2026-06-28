@@ -1,42 +1,74 @@
-# sv
+# 🌐 My Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is my personal portfolio built with **SvelteKit + TypeScript + TailwindCSS**, deployed as a fully static site using GitHub Pages.
 
-## Creating a project
+The project is designed to be lightweight, fast, and multilingual.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project
-npx sv create my-app
+## 🌍 Features
+
+- ⚡ Built with SvelteKit (static SPA mode)
+- 🌐 Multilingual support (Polish & English)
+- 📄 Content driven by JSON files
+- 🎨 TailwindCSS styling
+- 🚀 Deployed via GitHub Actions to GitHub Pages
+- 📱 Fully responsive design
+
+---
+
+## 🌐 Language System
+
+This portfolio uses simple JSON-based internationalization:
+
+- `src/lib/data/pl/cv.json` → Polish content
+- `src/lib/data/en/cv.json` → English content
+
+The app dynamically reads data from these files to switch language without a backend.
+
+---
+
+## 🛠️ Commands
+
+### Install Deno (Windows PowerShell)
+
+```
+irm https://deno.land/install.ps1 | iex
 ```
 
-To recreate this project with the same configuration:
+### Check Deno version
 
-```sh
-# recreate this project
-deno run npm:sv@0.16.1 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:none" sveltekit-adapter="adapter:static" --install deno new-portfolio
+```
+deno --version
 ```
 
-## Developing
+### Create new SvelteKit project
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+deno run -A npm:sv create new-portfolio
 ```
 
-## Building
+### Enter project folder
 
-To create a production version of your app:
-
-```sh
-npm run build
+```
+cd .\new-portfolio\
 ```
 
-You can preview the production build with `npm run preview`.
+### Start development server (auto-open browser)
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```
+deno task dev --open
+```
+
+### Add static adapter (GitHub Pages support)
+
+```
+deno add npm:@sveltejs/adapter-static
+```
+
+### Start development server (manual)
+
+```
+cd .\new-portfolio\
+deno task dev
+```
