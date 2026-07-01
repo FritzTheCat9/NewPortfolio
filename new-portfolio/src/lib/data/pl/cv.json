@@ -5,6 +5,7 @@
 		"courses": "Kursy i Certyfikaty",
 		"skills": "Umiejętności"
 	},
+
 	"personal": {
 		"name": "Bartłomiej Umiński",
 		"title": "Inżynier Oprogramowania",
@@ -31,58 +32,6 @@
 		]
 	},
 
-	"skills": [
-		{
-			"sectionName": "Ulubione technologie",
-			"items": [
-				"c-sharp",
-				"dotnet",
-				"api",
-				"minimal-api",
-				"vertical-slices-architecture",
-				"entity-framework-core",
-				"blazor-webassembly",
-				"mudblazor",
-				"fluent-ui-blazor",
-				"visual-studio",
-				"git",
-				"svelte",
-				"sveltekit"
-			]
-		},
-		{
-			"sectionName": "Podstawowa wiedza",
-			"items": [
-				"sql",
-				"microsoft-sql-server",
-				"postgresql",
-				"vs-code",
-				"docker",
-				"microsoft-azure",
-				"azure-devops",
-				"azure-functions",
-				"power-apps",
-				"dynamics-365",
-				"dynamics-365-field-service",
-				"dataverse",
-				"javascript",
-				"typescript",
-				"vue",
-				"angular",
-				"react",
-				"html",
-				"css",
-				"tailwind-css",
-				"c-plus-plus",
-				"c"
-			]
-		},
-		{
-			"sectionName": "Inne",
-			"items": ["ms-office", "ms-teams", "driving-license-category-b"]
-		}
-	],
-
 	"experience": [
 		{
 			"logo": "/images/Netcompany.png",
@@ -94,12 +43,12 @@
 			"from": "4/2025",
 			"to": "obecnie",
 			"description": [
-				"Developing and maintaining enterprise applications using C#, .NET, Microsoft Dynamics 365, and Azure services.",
-				"Designing and implementing REST APIs, external system integrations, and Azure Functions.",
-				"Customizing Microsoft Dynamics 365 Field Service and Customer Service, including plugins, business logic, and data migrations.",
-				"Resolving production issues, maintaining existing solutions, and delivering new business features.",
-				"Deploying applications and cloud resources through Azure DevOps CI/CD pipelines.",
-				"Performing code reviews, requirement analysis, and collaborating with cross-functional teams to deliver high-quality solutions."
+				"Rozwijanie i utrzymywanie aplikacji korporacyjnych przy użyciu C#, .NET, Microsoft Dynamics 365 oraz usług Azure.",
+				"Projektowanie i implementacja REST API, integracji z systemami zewnętrznymi oraz funkcji Azure Functions. ",
+				"Dostosowywanie Microsoft Dynamics 365 Field Service oraz Customer Service, w tym tworzenie pluginów, logiki biznesowej oraz migracji danych.",
+				"Rozwiązywanie problemów produkcyjnych, utrzymanie istniejących rozwiązań oraz dostarczanie nowych funkcji biznesowych.",
+				"Wdrażanie aplikacji i zasobów chmurowych przy użyciu pipeline’ów CI/CD w Azure DevOps.",
+				"Przeprowadzanie przeglądów kodu, analiz wymagań oraz współpraca z zespołami międzyfunkcyjnymi w celu dostarczania wysokiej jakości rozwiązań."
 			],
 			"skills": [
 				"c-sharp",
@@ -136,7 +85,7 @@
 			"from": "10/2021",
 			"to": "03/2023",
 			"description": [
-				"Developing new functionalities and maintenance of API projects in low code platform FastApp (C#, .NET, API, React)."
+				"Tworzenie nowych funkcjonalności i utrzymywanie projektów API w platformie low code FastApp (C#, .NET, API, React)."
 			],
 			"skills": [
 				"c-sharp",
@@ -154,7 +103,7 @@
 			]
 		},
 		{
-			"logo": "/images/PB-en.webp",
+			"logo": "/images/PB-pl.webp",
 			"company": "Politechnika Białostocka",
 			"location": "Białystok, Polska",
 			"locationType": "studia stacjonarne dzienne",
@@ -195,7 +144,7 @@
 	"projects": [
 		{
 			"name": "YoutubeLinks",
-			"description": "I achieved 8th place in the 100 Commits competition organized by DevMentors. Over 100 days, I developed the YoutubeLinks application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.",
+			"description": "Zająłem 8 miejsce w konkursie \"100 Commitów\" zorganizowanym przez DevMentors. Przez ponad 100 dni rozwijałem aplikację „YoutubeLinks”, która umożliwia użytkownikom tworzenie playlist z linków YouTube i pobieranie tych playlist w formatach MP3 i MP4. Do stworzenia projektu użyłem mojego ulubionego stosu technologicznego (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core i Vertical Slices Architecture).",
 			"links": [
 				{
 					"label": "GitHub",
@@ -233,7 +182,7 @@
 		},
 		{
 			"name": "FreakFightsFan",
-			"description": "The FreakFightsFan application contains information and statistics about federations, events, fights and fighters of freak fight federations. I created this application because I wanted to practice building Full Stack applications with .NET technology. (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture)",
+			"description": "Aplikacja FreakFightsFan zawiera informacje i statystyki dotyczące federacji, wydarzeń, walk i zawodników federacji freak fight. Stworzyłem tę aplikację, ponieważ chciałem poćwiczyć tworzenie aplikacji Full Stack w technologii .NET. (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core i Vertical Slices Architecture)",
 			"links": [
 				{
 					"label": "GitHub",
@@ -392,6 +341,58 @@
 			"identifier": "driving-license-category-b",
 			"name": "Driving Licence (Category B)",
 			"icon": "mdi:car"
+		}
+	],
+
+	"skills": [
+		{
+			"sectionName": "Ulubione technologie",
+			"items": [
+				"c-sharp",
+				"dotnet",
+				"api",
+				"minimal-api",
+				"vertical-slices-architecture",
+				"entity-framework-core",
+				"blazor-webassembly",
+				"mudblazor",
+				"fluent-ui-blazor",
+				"visual-studio",
+				"git",
+				"svelte",
+				"sveltekit"
+			]
+		},
+		{
+			"sectionName": "Podstawowa wiedza",
+			"items": [
+				"sql",
+				"microsoft-sql-server",
+				"postgresql",
+				"vs-code",
+				"docker",
+				"microsoft-azure",
+				"azure-devops",
+				"azure-functions",
+				"power-apps",
+				"dynamics-365",
+				"dynamics-365-field-service",
+				"dataverse",
+				"javascript",
+				"typescript",
+				"vue",
+				"angular",
+				"react",
+				"html",
+				"css",
+				"tailwind-css",
+				"c-plus-plus",
+				"c"
+			]
+		},
+		{
+			"sectionName": "Inne",
+			"items": ["ms-office", "ms-teams", "driving-license-category-b"]
 		}
 	]
 }
