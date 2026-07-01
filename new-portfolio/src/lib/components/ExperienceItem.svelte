@@ -19,14 +19,12 @@
 				>
 					<!-- LOGO -->
 					{#if exp.logo}
-						<div class="mb-6 flex justify-center">
-							<div
-								class="h-32 w-full flex items-center justify-center from-slate-800/40 to-slate-900/20 rounded-2xl border border-slate-700/40 shadow-lg"
-							>
+						<div class="mb-4 flex justify-center">
+							<div class="overflow-hidden rounded-2xl">
 								<img
 									src={exp.logo}
 									alt={exp.company}
-									class="h-full w-full object-contain p-3 opacity-95 group-hover:opacity-100 transition"
+									class="h-32 w-auto object-contain opacity-95 group-hover:opacity-100 transition"
 								/>
 							</div>
 						</div>
@@ -85,15 +83,14 @@
 				<div
 					class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-slate-700 transition shadow-xl"
 				>
+					<!-- LOGO -->
 					{#if exp.logo}
-						<div class="mb-6 flex justify-center">
-							<div
-								class="h-32 w-full flex items-center justify-center from-slate-800/40 to-slate-900/20 rounded-2xl border border-slate-700/40 shadow-lg"
-							>
+						<div class="mb-4 flex justify-center">
+							<div class="overflow-hidden rounded-2xl">
 								<img
 									src={exp.logo}
 									alt={exp.company}
-									class="h-full w-full object-contain p-3 opacity-95 group-hover:opacity-100 transition"
+									class="h-32 w-auto object-contain opacity-95 group-hover:opacity-100 transition"
 								/>
 							</div>
 						</div>
