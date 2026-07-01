@@ -5,12 +5,7 @@ export type Skill = {
 	image?: string;
 };
 
-export type SkillReference = Skill['identifier'];
-
-export type SkillGroup = {
-	sectionName: string;
-	items: SkillReference[];
-};
+export type SkillIdentifier = Skill['identifier'];
 
 export type Link = {
 	label: string;
@@ -18,12 +13,22 @@ export type Link = {
 	icon: string;
 };
 
-export type Project = {
+export type Course = {
 	name: string;
-	description: string;
-	links: Link[];
-	technologies: SkillReference[];
-	images: string[];
+	issuer: string;
+	date: string;
+	image: string;
+	link: string;
+};
+
+export type SkillGroup = {
+	sectionName: string;
+	items: Skill[];
+};
+
+export type RawSkillGroup = {
+	sectionName: string;
+	items: SkillIdentifier[];
 };
 
 export type Experience = {
@@ -36,15 +41,23 @@ export type Experience = {
 	from: string;
 	to: string;
 	description: string[];
-	skills: SkillReference[];
+	skills: Skill[];
 };
 
-export type Course = {
+export type RawExperience = Omit<Experience, 'skills'> & {
+	skills: SkillIdentifier[];
+};
+
+export type Project = {
 	name: string;
-	issuer: string;
-	date: string;
-	image: string;
-	link: string;
+	description: string;
+	links: Link[];
+	technologies: Skill[];
+	images: string[];
+};
+
+export type RawProject = Omit<Project, 'technologies'> & {
+	technologies: SkillIdentifier[];
 };
 
 export type Personal = {
@@ -69,14 +82,20 @@ export type CV = {
 	personal: Personal;
 
 	allSkills: Skill[];
-	skills: SkillGroup[];
 
+	skills: SkillGroup[];
 	experience: Experience[];
 	projects: Project[];
 	courses: Course[];
 };
 
-let allSkills: SkillReference[] = [
+export type RawCV = Omit<CV, 'skills' | 'experience' | 'projects'> & {
+	skills: RawSkillGroup[];
+	experience: RawExperience[];
+	projects: RawProject[];
+};
+
+let allSkills: SkillIdentifier[] = [
 	'c-sharp',
 	'dotnet',
 	'minimal-api',

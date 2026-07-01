@@ -1,13 +1,9 @@
 <script lang="ts">
 	import ExperienceItem from './ExperienceItem.svelte';
-	import type { Experience, Skill } from '$lib/types';
-
-	type ResolvedExperience = Omit<Experience, 'skills'> & {
-		skills: Skill[];
-	};
+	import type { Experience } from '$lib/types';
 
 	type Props = {
-		experience: ResolvedExperience[];
+		experience: Experience[];
 	};
 
 	let { experience }: Props = $props();

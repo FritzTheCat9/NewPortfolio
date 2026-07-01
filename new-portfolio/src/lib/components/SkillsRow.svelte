@@ -4,7 +4,7 @@
 
 	type Props = {
 		skills: Skill[];
-		showName: boolean;
+		showName?: boolean;
 	};
 
 	let { skills, showName = true }: Props = $props();

@@ -93,7 +93,14 @@
 			"position": "Konsultant / Programista .NET",
 			"from": "4/2025",
 			"to": "obecnie",
-			"description": ["asdasd"],
+			"description": [
+				"Developing and maintaining enterprise applications using C#, .NET, Microsoft Dynamics 365, and Azure services.",
+				"Designing and implementing REST APIs, external system integrations, and Azure Functions.",
+				"Customizing Microsoft Dynamics 365 Field Service and Customer Service, including plugins, business logic, and data migrations.",
+				"Resolving production issues, maintaining existing solutions, and delivering new business features.",
+				"Deploying applications and cloud resources through Azure DevOps CI/CD pipelines.",
+				"Performing code reviews, requirement analysis, and collaborating with cross-functional teams to deliver high-quality solutions."
+			],
 			"skills": [
 				"c-sharp",
 				"dotnet",

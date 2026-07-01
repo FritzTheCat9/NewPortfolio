@@ -7,23 +7,14 @@
 	import SkillsSection from '$lib/components/SkillsSection.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import CoursesSection from '$lib/components/Courses.svelte';
-	import type { Experience, Skill, SkillGroup } from '$lib/types';
 
-	let { data } = $props<{ data: PageData }>();
+	let { data }: { data: PageData } = $props();
+
+	const cv = $derived(data.cv);
 
 	function switchLang(lang: Lang) {
 		setLang(lang);
 		goto(`/${lang}`);
-	}
-
-	const cv = $derived(data.cv);
-
-	const skillLookup = $derived<Record<string, Skill>>(
-		Object.fromEntries(cv.allSkills.map((skill: Skill) => [skill.identifier, skill]))
-	);
-
-	function resolveSkills(ids: string[]): Skill[] {
-		return ids.map((id) => skillLookup[id]);
 	}
 </script>
 
@@ -89,7 +80,7 @@
 
 			<div class="flex flex-wrap gap-2 mt-6">
 				{#each data.cv.personal.links as link}
-					<LinkChip label={link.label} href={link.href} icon={link.icon} />
+					<LinkChip {link} />
 				{/each}
 			</div>
 		</div>
@@ -101,12 +92,7 @@
 			{cv.sections.experience}
 		</h2>
 
-		<ExperienceTimeline
-			experience={cv.experience.map((exp: Experience) => ({
-				...exp,
-				skills: resolveSkills(exp.skills)
-			}))}
-		/>
+		<ExperienceTimeline experience={cv.experience} />
 	</section>
 
 	<!-- PROJECTS -->
@@ -117,12 +103,7 @@
 
 		<div class="grid grid-cols-1 gap-8">
 			{#each cv.projects as project}
-				<ProjectCard
-					project={{
-						...project,
-						technologies: resolveSkills(project.technologies)
-					}}
-				/>
+				<ProjectCard {project} />
 			{/each}
 		</div>
 	</section>
@@ -142,12 +123,7 @@
 			{cv.sections.skills}
 		</h2>
 
-		<SkillsSection
-			skills={cv.skills.map((group: SkillGroup) => ({
-				...group,
-				items: resolveSkills(group.items)
-			}))}
-		/>
+		<SkillsSection skills={cv.skills} />
 	</section>
 
 	<!-- FOOTER -->
