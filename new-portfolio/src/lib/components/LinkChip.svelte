@@ -1,11 +1,7 @@
 <script lang="ts">
-	type Props = {
-		label: string;
-		href: string;
-		icon: string;
-	};
+	import type { Link } from '$lib/types';
 
-	let { label, href, icon }: Props = $props();
+	let { label, href, icon }: Link = $props();
 </script>
 
 <a

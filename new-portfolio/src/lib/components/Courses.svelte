@@ -1,15 +1,9 @@
 <script lang="ts">
-	export type CourseData = {
-		name: string;
-		issuer: string;
-		date: string;
-		image: string;
-		link: string;
-	};
+	import type { Course } from '$lib/types';
 
-	interface Props {
-		courses: CourseData[];
-	}
+	type Props = {
+		courses: Course[];
+	};
 
 	let { courses }: Props = $props();
 </script>

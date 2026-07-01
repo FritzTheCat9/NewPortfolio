@@ -1,10 +1,6 @@
 <script lang="ts">
+	import type { Skill } from '$lib/types';
 	import SkillChip from './SkillChip.svelte';
-
-	type Skill = {
-		name: string;
-		icon: string;
-	};
 
 	type Props = {
 		skills: Skill[];

@@ -1,8 +1,7 @@
 <script lang="ts">
-	type Props = {
-		name: string;
-		icon?: string;
-		image?: string;
+	import type { Skill } from '$lib/types';
+
+	type Props = Skill & {
 		showName?: boolean;
 	};
 

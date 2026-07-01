@@ -1,11 +1,16 @@
 <script lang="ts">
 	import ExperienceItem from './ExperienceItem.svelte';
+	import type { Experience, Skill } from '$lib/types';
 
-	type Props = {
-		cv: any;
+	type ResolvedExperience = Omit<Experience, 'skills'> & {
+		skills: Skill[];
 	};
 
-	let { cv }: Props = $props();
+	type Props = {
+		experience: ResolvedExperience[];
+	};
+
+	let { experience }: Props = $props();
 </script>
 
 <div class="relative max-w-6xl mx-auto">
@@ -13,7 +18,7 @@
 	<div class="absolute left-1/2 top-0 bottom-0 w-px bg-slate-700 -translate-x-1/2"></div>
 
 	<div class="space-y-14">
-		{#each cv.experience as exp, i}
+		{#each experience as exp, i}
 			<div class="grid grid-cols-[1fr_48px_1fr]">
 				<!-- LEFT -->
 				<div class="w-full flex justify-end">

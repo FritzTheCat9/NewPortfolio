@@ -2,27 +2,13 @@
 	import SkillsRow from './SkillsRow.svelte';
 	import LinkChip from './LinkChip.svelte';
 	import ProjectGallery from './ProjectGallery.svelte';
+	import type { Project, Skill } from '$lib/types';
 
-	type Link = {
-		label: string;
-		href: string;
-		icon: string;
-	};
-
-	type Skill = {
-		name: string;
-		icon: string;
-	};
-
-	type Project = {
-		name: string;
-		description: string;
-		links: Link[];
+	type ResolvedProject = Omit<Project, 'technologies'> & {
 		technologies: Skill[];
-		images: string[];
 	};
 
-	let { project }: { project: Project } = $props();
+	let { project }: { project: ResolvedProject } = $props();
 </script>
 
 <div

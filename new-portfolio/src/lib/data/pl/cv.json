@@ -35,57 +35,51 @@
 		{
 			"sectionName": "Ulubione technologie",
 			"items": [
-				{ "name": "C#", "icon": "logos:c-sharp" },
-				{ "name": ".NET", "icon": "logos:dotnet" },
-				{ "name": "Minimal API", "icon": "mdi:web" },
-				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" },
-				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
-				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
-				{ "name": "MudBlazor", "icon": "devicon:blazor" },
-				{ "name": "Microsoft Fluent UI Blazor", "icon": "devicon:blazor" },
-				{ "name": "Svelte", "icon": "logos:svelte-icon" },
-				{ "name": "SvelteKit", "icon": "logos:svelte-icon" },
-				{ "name": "Git", "icon": "logos:git-icon" }
+				"c-sharp",
+				"dotnet",
+				"api",
+				"minimal-api",
+				"vertical-slices-architecture",
+				"entity-framework-core",
+				"blazor-webassembly",
+				"mudblazor",
+				"fluent-ui-blazor",
+				"visual-studio",
+				"git",
+				"svelte",
+				"sveltekit"
 			]
 		},
 		{
 			"sectionName": "Podstawowa wiedza",
 			"items": [
-				{ "name": "SQL", "icon": "mdi:database" },
-				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" },
-				{ "name": "PostgreSQL", "icon": "devicon:postgresql" },
-				{ "name": "Docker", "icon": "logos:docker-icon" },
-				{ "name": "JavaScript", "icon": "logos:javascript" },
-				{ "name": "TypeScript", "icon": "logos:typescript-icon" },
-				{ "name": "Vue", "icon": "logos:vue" },
-				{ "name": "Angular", "icon": "logos:angular-icon" },
-				{ "name": "React", "icon": "logos:react" },
-				{ "name": "HTML", "icon": "logos:html-5" },
-				{ "name": "CSS", "icon": "logos:css-3" },
-				{ "name": "Tailwind CSS", "icon": "logos:tailwindcss-icon" },
-				{ "name": "C++", "icon": "logos:c-plusplus" },
-				{ "name": "C", "icon": "logos:c" },
-				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
-				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
-				{ "name": "Microsoft Azure Functions", "image": "/images/MicrosoftAzureFunctions.png" },
-				{ "name": "Microsoft Power Apps", "image": "/images/MicrosoftPowerApps.png" },
-				{ "name": "Microsoft Dynamics 365", "image": "/images/MicrosoftDynamics365.svg" },
-				{
-					"name": "Microsoft Dynamics 365 Field Service",
-					"image": "/images/MicrosoftDynamics365FieldService.png"
-				},
-				{ "name": "Microsoft Dataverse", "image": "/images/MicrosoftDataverse.svg" },
-				{ "name": "Visual Studio", "icon": "logos:visual-studio" },
-				{ "name": "VS Code", "icon": "logos:visual-studio-code" }
+				"sql",
+				"microsoft-sql-server",
+				"postgresql",
+				"vs-code",
+				"docker",
+				"microsoft-azure",
+				"azure-devops",
+				"azure-functions",
+				"power-apps",
+				"dynamics-365",
+				"dynamics-365-field-service",
+				"dataverse",
+				"javascript",
+				"typescript",
+				"vue",
+				"angular",
+				"react",
+				"html",
+				"css",
+				"tailwind-css",
+				"c-plus-plus",
+				"c"
 			]
 		},
 		{
 			"sectionName": "Inne",
-			"items": [
-				{ "name": "MS Office", "icon": "logos:microsoft-icon" },
-				{ "name": "MS Teams", "icon": "logos:microsoft-teams" },
-				{ "name": "Prawo jazdy (Kategoria B)", "icon": "mdi:car" }
-			]
+			"items": ["ms-office", "ms-teams", "driving-license-category-b"]
 		}
 	],
 
@@ -101,17 +95,28 @@
 			"to": "obecnie",
 			"description": ["asdasd"],
 			"skills": [
-				{ "name": ".NET", "icon": "logos:dotnet" },
-				{ "name": "Microsoft Dynamics 365", "image": "/images/MicrosoftDynamics365.svg" },
-				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
-				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
-				{ "name": "Microsoft Power Apps", "image": "/images/MicrosoftPowerApps.png" },
-				{
-					"name": "Microsoft Dynamics 365 Field Service",
-					"image": "/images/MicrosoftDynamics365FieldService.png"
-				},
-				{ "name": "Microsoft Azure Functions", "image": "/images/MicrosoftAzureFunctions.png" },
-				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" }
+				"c-sharp",
+				"dotnet",
+				"api",
+				"vertical-slices-architecture",
+				"entity-framework-core",
+				"microsoft-sql-server",
+				"visual-studio",
+				"vs-code",
+				"docker",
+				"git",
+				"microsoft-azure",
+				"azure-devops",
+				"azure-functions",
+				"power-apps",
+				"dynamics-365",
+				"dynamics-365-field-service",
+				"dataverse",
+				"javascript",
+				"typescript",
+				"react",
+				"ms-office",
+				"ms-teams"
 			]
 		},
 		{
@@ -127,14 +132,18 @@
 				"Developing new functionalities and maintenance of API projects in low code platform FastApp (C#, .NET, API, React)."
 			],
 			"skills": [
-				{ "name": ".NET", "icon": "logos:dotnet" },
-				{ "name": "API", "icon": "mdi:web" },
-				{ "name": "Microsoft Azure", "icon": "logos:microsoft-azure" },
-				{ "name": "Microsoft Azure DevOps", "icon": "devicon:azuredevops" },
-				{ "name": "Microsoft SQL Server", "icon": "devicon:microsoftsqlserver" },
-				{ "name": "Angular", "icon": "logos:angular-icon" },
-				{ "name": "React", "icon": "logos:react" },
-				{ "name": "Git", "icon": "logos:git-icon" }
+				"c-sharp",
+				"dotnet",
+				"api",
+				"entity-framework-core",
+				"microsoft-sql-server",
+				"visual-studio",
+				"vs-code",
+				"git",
+				"azure-devops",
+				"angular",
+				"react",
+				"ms-teams"
 			]
 		},
 		{
@@ -151,10 +160,27 @@
 				"Temat pracy dyplomowej inżynierskiej: \"Portal społecznościowy łączący ludzi o podobnych zainteresowaniach\""
 			],
 			"skills": [
-				{ "name": ".NET", "icon": "logos:dotnet" },
-				{ "name": "Azure", "icon": "logos:microsoft-azure" },
-				{ "name": "React", "icon": "logos:react" },
-				{ "name": "SQL", "icon": "mdi:database" }
+				"c-sharp",
+				"dotnet",
+				"api",
+				"entity-framework-core",
+				"blazor-webassembly",
+				"mudblazor",
+				"sql",
+				"microsoft-sql-server",
+				"visual-studio",
+				"vs-code",
+				"git",
+				"javascript",
+				"typescript",
+				"angular",
+				"react",
+				"html",
+				"css",
+				"c-plus-plus",
+				"c",
+				"ms-office",
+				"ms-teams"
 			]
 		}
 	],
@@ -176,13 +202,17 @@
 				}
 			],
 			"technologies": [
-				{ "name": "C#", "icon": "logos:c-sharp" },
-				{ "name": ".NET", "icon": "logos:dotnet" },
-				{ "name": "Minimal API", "icon": "mdi:web" },
-				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
-				{ "name": "MudBlazor", "icon": "devicon:blazor" },
-				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
-				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" }
+				"c-sharp",
+				"dotnet",
+				"minimal-api",
+				"vertical-slices-architecture",
+				"entity-framework-core",
+				"blazor-webassembly",
+				"mudblazor",
+				"microsoft-sql-server",
+				"visual-studio",
+				"docker",
+				"git"
 			],
 			"images": [
 				"/images/projects/YoutubeLinks/1_users.png",
@@ -205,13 +235,17 @@
 				}
 			],
 			"technologies": [
-				{ "name": "C#", "icon": "logos:c-sharp" },
-				{ "name": ".NET", "icon": "logos:dotnet" },
-				{ "name": "Minimal API", "icon": "mdi:web" },
-				{ "name": "Blazor WebAssembly", "icon": "devicon:blazor" },
-				{ "name": "MudBlazor", "icon": "devicon:blazor" },
-				{ "name": "Entity Framework Core", "icon": "devicon:entityframeworkcore" },
-				{ "name": "Vertical Slices Architecture", "icon": "mdi:layers-triple-outline" }
+				"c-sharp",
+				"dotnet",
+				"minimal-api",
+				"vertical-slices-architecture",
+				"entity-framework-core",
+				"blazor-webassembly",
+				"mudblazor",
+				"microsoft-sql-server",
+				"visual-studio",
+				"docker",
+				"git"
 			],
 			"images": [
 				"/images/projects/FreakFightsFan/1_federations.png",
@@ -250,6 +284,107 @@
 			"date": "2025",
 			"image": "/images/courses/pb_course.png",
 			"link": "https://navoica.pl/courses/course-v1:Politechnika_Bialostocka+AIOK+2022_S3/about"
+		}
+	],
+
+	"allSkills": [
+		{ "identifier": "c-sharp", "name": "C#", "icon": "logos:c-sharp" },
+		{ "identifier": "dotnet", "name": ".NET", "icon": "logos:dotnet" },
+		{ "identifier": "minimal-api", "name": "Minimal API", "icon": "mdi:web" },
+		{ "identifier": "api", "name": "API", "icon": "mdi:web" },
+		{
+			"identifier": "vertical-slices-architecture",
+			"name": "Vertical Slices Architecture",
+			"icon": "mdi:layers-triple-outline"
+		},
+		{
+			"identifier": "entity-framework-core",
+			"name": "Entity Framework Core",
+			"icon": "devicon:entityframeworkcore"
+		},
+		{
+			"identifier": "blazor-webassembly",
+			"name": "Blazor WebAssembly",
+			"icon": "devicon:blazor"
+		},
+		{ "identifier": "mudblazor", "name": "MudBlazor", "icon": "devicon:blazor" },
+		{
+			"identifier": "fluent-ui-blazor",
+			"name": "Microsoft Fluent UI Blazor",
+			"icon": "devicon:blazor"
+		},
+
+		{ "identifier": "sql", "name": "SQL", "icon": "mdi:database" },
+		{
+			"identifier": "microsoft-sql-server",
+			"name": "Microsoft SQL Server",
+			"icon": "devicon:microsoftsqlserver"
+		},
+		{ "identifier": "postgresql", "name": "PostgreSQL", "icon": "devicon:postgresql" },
+
+		{ "identifier": "visual-studio", "name": "Visual Studio", "icon": "logos:visual-studio" },
+		{ "identifier": "vs-code", "name": "VS Code", "icon": "logos:visual-studio-code" },
+
+		{ "identifier": "docker", "name": "Docker", "icon": "logos:docker-icon" },
+		{ "identifier": "git", "name": "Git", "icon": "logos:git-icon" },
+
+		{
+			"identifier": "microsoft-azure",
+			"name": "Microsoft Azure",
+			"icon": "logos:microsoft-azure"
+		},
+		{
+			"identifier": "azure-devops",
+			"name": "Microsoft Azure DevOps",
+			"icon": "devicon:azuredevops"
+		},
+		{
+			"identifier": "azure-functions",
+			"name": "Microsoft Azure Functions",
+			"image": "/images/MicrosoftAzureFunctions.png"
+		},
+		{
+			"identifier": "power-apps",
+			"name": "Microsoft Power Apps",
+			"image": "/images/MicrosoftPowerApps.png"
+		},
+		{
+			"identifier": "dynamics-365",
+			"name": "Microsoft Dynamics 365",
+			"image": "/images/MicrosoftDynamics365.svg"
+		},
+		{
+			"identifier": "dynamics-365-field-service",
+			"name": "Microsoft Dynamics 365 Field Service",
+			"image": "/images/MicrosoftDynamics365FieldService.png"
+		},
+		{
+			"identifier": "dataverse",
+			"name": "Microsoft Dataverse",
+			"image": "/images/MicrosoftDataverse.svg"
+		},
+
+		{ "identifier": "svelte", "name": "Svelte", "icon": "logos:svelte-icon" },
+		{ "identifier": "sveltekit", "name": "SvelteKit", "icon": "logos:svelte-icon" },
+		{ "identifier": "javascript", "name": "JavaScript", "icon": "logos:javascript" },
+		{ "identifier": "typescript", "name": "TypeScript", "icon": "logos:typescript-icon" },
+		{ "identifier": "vue", "name": "Vue", "icon": "logos:vue" },
+		{ "identifier": "angular", "name": "Angular", "icon": "logos:angular-icon" },
+		{ "identifier": "react", "name": "React", "icon": "logos:react" },
+		{ "identifier": "html", "name": "HTML", "icon": "logos:html-5" },
+		{ "identifier": "css", "name": "CSS", "icon": "logos:css-3" },
+		{ "identifier": "tailwind-css", "name": "Tailwind CSS", "icon": "logos:tailwindcss-icon" },
+
+		{ "identifier": "c-plus-plus", "name": "C++", "icon": "logos:c-plusplus" },
+		{ "identifier": "c", "name": "C", "icon": "logos:c" },
+
+		{ "identifier": "ms-office", "name": "MS Office", "icon": "logos:microsoft-icon" },
+		{ "identifier": "ms-teams", "name": "MS Teams", "icon": "logos:microsoft-teams" },
+
+		{
+			"identifier": "driving-license-category-b",
+			"name": "Driving Licence (Category B)",
+			"icon": "mdi:car"
 		}
 	]
 }

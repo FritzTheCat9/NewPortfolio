@@ -7,6 +7,7 @@
 	import SkillsSection from '$lib/components/SkillsSection.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import CoursesSection from '$lib/components/Courses.svelte';
+	import type { Experience, Skill, SkillGroup } from '$lib/types';
 
 	let { data } = $props<{ data: PageData }>();
 
@@ -16,6 +17,14 @@
 	}
 
 	const cv = $derived(data.cv);
+
+	const skillLookup = $derived<Record<string, Skill>>(
+		Object.fromEntries(cv.allSkills.map((skill: Skill) => [skill.identifier, skill]))
+	);
+
+	function resolveSkills(ids: string[]): Skill[] {
+		return ids.map((id) => skillLookup[id]);
+	}
 </script>
 
 <!-- Layout wrapper -->
@@ -92,7 +101,12 @@
 			{cv.sections.experience}
 		</h2>
 
-		<ExperienceTimeline {cv} />
+		<ExperienceTimeline
+			experience={cv.experience.map((exp: Experience) => ({
+				...exp,
+				skills: resolveSkills(exp.skills)
+			}))}
+		/>
 	</section>
 
 	<!-- PROJECTS -->
@@ -103,7 +117,12 @@
 
 		<div class="grid grid-cols-1 gap-8">
 			{#each cv.projects as project}
-				<ProjectCard {project} />
+				<ProjectCard
+					project={{
+						...project,
+						technologies: resolveSkills(project.technologies)
+					}}
+				/>
 			{/each}
 		</div>
 	</section>
@@ -123,7 +142,12 @@
 			{cv.sections.skills}
 		</h2>
 
-		<SkillsSection skills={cv.skills} />
+		<SkillsSection
+			skills={cv.skills.map((group: SkillGroup) => ({
+				...group,
+				items: resolveSkills(group.items)
+			}))}
+		/>
 	</section>
 
 	<!-- FOOTER -->

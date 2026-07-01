@@ -1,8 +1,13 @@
 <script lang="ts">
 	import SkillsRow from './SkillsRow.svelte';
+	import type { Experience, Skill } from '$lib/types';
+
+	type ResolvedExperience = Omit<Experience, 'skills'> & {
+		skills: Skill[];
+	};
 
 	type Props = {
-		exp: any;
+		exp: ResolvedExperience;
 		side: 'left' | 'right';
 	};
 
