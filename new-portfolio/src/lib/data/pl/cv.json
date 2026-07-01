@@ -9,7 +9,7 @@
 		"name": "Bartłomiej Umiński",
 		"title": "Inżynier Oprogramowania",
 		"location": "Warszawa, Polska",
-		"summary": "I am a hard-working programmer. I am able to create Full Stack applications in .NET technology. I pursue my goals, systematically, one step at a time. I believe in the importance of constant work on myself and my skills.",
+		"summary": "Jestem pracowitym programistą. Potrafię tworzyć aplikacje Full Stack w technologii .NET. Dążę do swoich celów systematycznie, krok po kroku. Wierzę w znaczenie ciągłej pracy nad sobą i swoimi umiejętnościami.",
 		"email": "contact.bartlomiejuminski@gmail.com",
 		"avatar": "/images/BUMI.jpg",
 		"links": [
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"logo": "/images/FABRITY.png",
+			"logo": "/images/FABRITY.webp",
 			"company": "FABRITY",
 			"location": "Warszawa, Polska",
 			"locationType": "praca zdalna",
