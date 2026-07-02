@@ -115,7 +115,7 @@
 			{cv.sections.courses}
 		</h2>
 
-		<CoursesSection courses={cv.courses} />
+		<CoursesSection courses={cv.courses} translations={cv.translations} />
 	</section>
 
 	<!-- SKILLS -->

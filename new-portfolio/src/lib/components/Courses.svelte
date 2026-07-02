@@ -1,11 +1,12 @@
 <script lang="ts">
-	import type { Course } from '$lib/types';
+	import type { Course, Translations } from '$lib/types';
 
 	type Props = {
 		courses: Course[];
+		translations: Translations;
 	};
 
-	let { courses }: Props = $props();
+	let { courses, translations }: Props = $props();
 </script>
 
 <div class="my-10 space-y-12">
@@ -44,7 +45,8 @@
 				</p>
 
 				<p class="mt-1 text-sm text-slate-500">
-					Completed in {course.date}
+					{translations.completedIn}
+					{course.date}
 				</p>
 
 				<a
@@ -53,7 +55,7 @@
 					rel="noopener noreferrer"
 					class="mt-6 inline-flex rounded-lg border border-blue-500 px-4 py-2 text-sm font-medium text-blue-400 transition hover:bg-blue-500 hover:text-white"
 				>
-					View Course
+					{translations.viewCourse}
 				</a>
 			</div>
 		</div>

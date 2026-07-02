@@ -90,12 +90,15 @@ export type Language = {
 	level: string;
 };
 
+export type Translations = {
+	completedIn: string;
+	viewCourse: string;
+};
+
 export type CV = {
 	sections: Sections;
 	about: Personal;
-
 	allSkills: Skill[];
-
 	skills: SkillGroup[];
 	experience: Experience[];
 	education: Experience[];
@@ -103,6 +106,7 @@ export type CV = {
 	courses: Course[];
 	languages: Language[];
 	hobbies: string[];
+	translations: Translations;
 };
 
 export type RawCV = Omit<CV, 'skills' | 'experience' | 'education' | 'projects'> & {

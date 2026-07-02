@@ -419,5 +419,7 @@
 		"gry komputerowe",
 		"gry karciane / łamigłówki",
 		"jazda na rowerze"
-	]
+	],
+
+	"translations": { "completedIn": "Ukończony", "viewCourse": "Sprawdź kurs" }
 }

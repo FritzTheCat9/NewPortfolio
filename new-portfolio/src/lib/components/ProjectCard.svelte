@@ -22,7 +22,7 @@
 	{#if project.links?.length}
 		<div class="mt-4 flex flex-wrap justify-center gap-3">
 			{#each project.links as link}
-				<LinkChip label={link.label} href={link.href} icon={link.icon} />
+				<LinkChip {link} />
 			{/each}
 		</div>
 	{/if}

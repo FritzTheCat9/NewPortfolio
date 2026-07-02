@@ -414,5 +414,7 @@
 		}
 	],
 
-	"hobbies": ["programming in C#", "computer games", "card games / puzzles", "cycling"]
+	"hobbies": ["programming in C#", "computer games", "card games / puzzles", "cycling"],
+
+	"translations": { "completedIn": "Completed in", "viewCourse": "View Course" }
 }
