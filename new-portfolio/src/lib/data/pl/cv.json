@@ -1,12 +1,16 @@
 {
 	"sections": {
+		"about": "O mnie",
 		"experience": "Doświadczenie",
+		"education": "Wykształcenie",
 		"projects": "Projekty",
 		"courses": "Kursy i Certyfikaty",
-		"skills": "Umiejętności"
+		"skills": "Umiejętności",
+		"languages": "Języki",
+		"hobbies": "Zainteresowania"
 	},
 
-	"personal": {
+	"about": {
 		"name": "Bartłomiej Umiński",
 		"title": "Inżynier Oprogramowania",
 		"location": "Warszawa, Polska",
@@ -85,7 +89,7 @@
 			"from": "10/2021",
 			"to": "03/2023",
 			"description": [
-				"Tworzenie nowych funkcjonalności i utrzymywanie projektów API w platformie low code FastApp (C#, .NET, API, React)."
+				"Tworzenie nowych funkcjonalności i utrzymywanie projektów API w platformie low code FastApp."
 			],
 			"skills": [
 				"c-sharp",
@@ -101,14 +105,17 @@
 				"react",
 				"ms-teams"
 			]
-		},
+		}
+	],
+
+	"education": [
 		{
 			"logo": "/images/PB-pl.webp",
 			"company": "Politechnika Białostocka",
 			"location": "Białystok, Polska",
 			"locationType": "studia stacjonarne dzienne",
 			"employment": null,
-			"position": "Inżynier informatyki",
+			"position": "Inżynier Informatyki",
 			"from": "10/2018",
 			"to": "03/2022",
 			"description": [
@@ -144,7 +151,7 @@
 	"projects": [
 		{
 			"name": "YoutubeLinks",
-			"description": "Zająłem 8 miejsce w konkursie \"100 Commitów\" zorganizowanym przez DevMentors. Przez ponad 100 dni rozwijałem aplikację „YoutubeLinks”, która umożliwia użytkownikom tworzenie playlist z linków YouTube i pobieranie tych playlist w formatach MP3 i MP4. Do stworzenia projektu użyłem mojego ulubionego stosu technologicznego (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core i Vertical Slices Architecture).",
+			"description": "Zająłem 8 miejsce w konkursie \"100 Commitów\" zorganizowanym przez DevMentors. Przez ponad 100 dni rozwijałem aplikację „YoutubeLinks”, która umożliwia użytkownikom tworzenie playlist z linków YouTube i pobieranie tych playlist w formatach MP3 i MP4. Do stworzenia projektu użyłem mojego ulubionego stosu technologicznego.",
 			"links": [
 				{
 					"label": "GitHub",
@@ -182,7 +189,7 @@
 		},
 		{
 			"name": "FreakFightsFan",
-			"description": "Aplikacja FreakFightsFan zawiera informacje i statystyki dotyczące federacji, wydarzeń, walk i zawodników federacji freak fight. Stworzyłem tę aplikację, ponieważ chciałem poćwiczyć tworzenie aplikacji Full Stack w technologii .NET. (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core i Vertical Slices Architecture)",
+			"description": "Aplikacja FreakFightsFan zawiera informacje i statystyki dotyczące federacji, wydarzeń, walk i zawodników federacji freak fight. Stworzyłem tę aplikację, ponieważ chciałem poćwiczyć tworzenie aplikacji Full Stack w technologii .NET.",
 			"links": [
 				{
 					"label": "GitHub",
@@ -223,21 +230,21 @@
 		{
 			"name": "Modularny Monolit",
 			"issuer": "DevMentors",
-			"date": "2025",
+			"date": "20.10.2024",
 			"image": "/images/courses/modularny-monolit.png",
 			"link": "https://platform.devmentors.io/courses/modularny-monolit"
 		},
 		{
 			"name": "SOLIDne Web API",
 			"issuer": "DevMentors",
-			"date": "2025",
+			"date": "30.05.2023",
 			"image": "/images/courses/solidne-web-api.png",
 			"link": "https://platform.devmentors.io/courses/solidne-web-api"
 		},
 		{
 			"name": "Nauka programowania aplikacji internetowych typu SPA",
 			"issuer": "Politechnika Białostocka",
-			"date": "2025",
+			"date": "02.02.2021",
 			"image": "/images/courses/pb_course.png",
 			"link": "https://navoica.pl/courses/course-v1:Politechnika_Bialostocka+AIOK+2022_S3/about"
 		}
@@ -394,5 +401,23 @@
 			"sectionName": "Inne",
 			"items": ["ms-office", "ms-teams", "driving-license-category-b"]
 		}
+	],
+
+	"languages": [
+		{
+			"name": "Polski",
+			"level": "Ojczysty"
+		},
+		{
+			"name": "Angielski",
+			"level": "B2"
+		}
+	],
+
+	"hobbies": [
+		"programowanie w języku C#",
+		"gry komputerowe",
+		"gry karciane / łamigłówki",
+		"jazda na rowerze"
 	]
 }

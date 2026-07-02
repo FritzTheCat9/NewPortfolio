@@ -1,12 +1,16 @@
 {
 	"sections": {
+		"about": "About me",
 		"experience": "Experience",
+		"education": "Education",
 		"projects": "Projects",
 		"courses": "Courses & Certifications",
-		"skills": "Skills"
+		"skills": "Skills",
+		"languages": "Languages",
+		"hobbies": "Hobbies"
 	},
 
-	"personal": {
+	"about": {
 		"name": "Bartłomiej Umiński",
 		"title": "Software Engineer",
 		"location": "Warsaw, Poland",
@@ -85,7 +89,7 @@
 			"from": "10/2021",
 			"to": "03/2023",
 			"description": [
-				"Developing new functionalities and maintenance of API projects in low code platform FastApp (C#, .NET, API, React)."
+				"Developing new functionalities and maintenance of API projects in low code platform FastApp."
 			],
 			"skills": [
 				"c-sharp",
@@ -101,7 +105,10 @@
 				"react",
 				"ms-teams"
 			]
-		},
+		}
+	],
+
+	"education": [
 		{
 			"logo": "/images/PB-en.webp",
 			"company": "Bialystok University of Technology",
@@ -144,7 +151,7 @@
 	"projects": [
 		{
 			"name": "YoutubeLinks",
-			"description": "I achieved 8th place in the 100 Commits competition organized by DevMentors. Over 100 days, I developed the YoutubeLinks application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.",
+			"description": "I achieved 8th place in the 100 Commits competition organized by DevMentors. Over 100 days, I developed the YoutubeLinks application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project.",
 			"links": [
 				{
 					"label": "GitHub",
@@ -182,7 +189,7 @@
 		},
 		{
 			"name": "FreakFightsFan",
-			"description": "The FreakFightsFan application contains information and statistics about federations, events, fights and fighters of freak fight federations. I created this application because I wanted to practice building Full Stack applications with .NET technology. (C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture)",
+			"description": "The FreakFightsFan application contains information and statistics about federations, events, fights and fighters of freak fight federations. I created this application because I wanted to practice building Full Stack applications with .NET technology.",
 			"links": [
 				{
 					"label": "GitHub",
@@ -223,21 +230,21 @@
 		{
 			"name": "Modular Monolith",
 			"issuer": "DevMentors",
-			"date": "2025",
+			"date": "20.10.2024",
 			"image": "/images/courses/modularny-monolit.png",
 			"link": "https://platform.devmentors.io/courses/modularny-monolit"
 		},
 		{
 			"name": "SOLID Web API",
 			"issuer": "DevMentors",
-			"date": "2025",
+			"date": "30.05.2023",
 			"image": "/images/courses/solidne-web-api.png",
 			"link": "https://platform.devmentors.io/courses/solidne-web-api"
 		},
 		{
-			"name": "Learning to Program SPA-Type Web Applications",
+			"name": "Learning to program SPA-type web applications",
 			"issuer": "Bialystok University of Technology",
-			"date": "2025",
+			"date": "02.02.2021",
 			"image": "/images/courses/pb_course.png",
 			"link": "https://navoica.pl/courses/course-v1:Politechnika_Bialostocka+AIOK+2022_S3/about"
 		}
@@ -394,5 +401,18 @@
 			"sectionName": "Other",
 			"items": ["ms-office", "ms-teams", "driving-license-category-b"]
 		}
-	]
+	],
+
+	"languages": [
+		{
+			"name": "Polish",
+			"level": "Native"
+		},
+		{
+			"name": "English",
+			"level": "B2"
+		}
+	],
+
+	"hobbies": ["programming in C#", "computer games", "card games / puzzles", "cycling"]
 }

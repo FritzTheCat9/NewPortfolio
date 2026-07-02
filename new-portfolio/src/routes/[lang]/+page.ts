@@ -28,6 +28,10 @@ function resolveCv(raw: RawCV): CV {
 			...exp,
 			skills: resolveSkills(exp.skills)
 		})),
+		education: raw.education.map((exp) => ({
+			...exp,
+			skills: resolveSkills(exp.skills)
+		})),
 		projects: raw.projects.map((project) => ({
 			...project,
 			technologies: resolveSkills(project.technologies)

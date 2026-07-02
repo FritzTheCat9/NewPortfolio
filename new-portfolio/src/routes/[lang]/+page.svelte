@@ -11,6 +11,7 @@
 	let { data }: { data: PageData } = $props();
 
 	const cv = $derived(data.cv);
+	const timeline = $derived([...cv.experience, ...cv.education]);
 
 	function switchLang(lang: Lang) {
 		setLang(lang);
@@ -23,11 +24,11 @@
 	<!-- HEADER -->
 	<header class="flex items-center justify-between px-6 py-4 border-b border-slate-800">
 		<div class="font-bold text-lg">
-			{cv.personal.name}
+			{cv.about.name}
 		</div>
 
 		<div class="text-sm text-slate-400">
-			{cv.personal.title}
+			{cv.about.title}
 		</div>
 
 		<div class="flex gap-2 items-center">
@@ -57,8 +58,8 @@
 				<div class="absolute inset-0 rounded-full bg-blue-500/20 blur-2xl"></div>
 
 				<img
-					src={cv.personal.avatar}
-					alt={cv.personal.name}
+					src={cv.about.avatar}
+					alt={cv.about.name}
 					class="relative w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border border-slate-700 shadow-xl"
 				/>
 			</div>
@@ -67,19 +68,19 @@
 		<!-- TEXT (mobile second, desktop left) -->
 		<div class="order-2 md:order-1">
 			<h1 class="text-4xl font-bold mb-4">
-				{cv.personal.name}
+				{cv.about.name}
 			</h1>
 
 			<p class="text-xl text-slate-300 mb-6">
-				{cv.personal.title}
+				{cv.about.title}
 			</p>
 
 			<p class="text-slate-400 max-w-2xl">
-				{cv.personal.summary}
+				{cv.about.summary}
 			</p>
 
 			<div class="flex flex-wrap gap-2 mt-6">
-				{#each data.cv.personal.links as link}
+				{#each data.cv.about.links as link}
 					<LinkChip {link} />
 				{/each}
 			</div>
@@ -92,7 +93,7 @@
 			{cv.sections.experience}
 		</h2>
 
-		<ExperienceTimeline experience={cv.experience} />
+		<ExperienceTimeline experience={timeline} />
 	</section>
 
 	<!-- PROJECTS -->
@@ -129,6 +130,6 @@
 	<!-- FOOTER -->
 	<footer class="px-6 py-10 text-center text-slate-500 text-sm border-t border-slate-800">
 		© {new Date().getFullYear()}
-		{cv.personal.name}
+		{cv.about.name}
 	</footer>
 </div>

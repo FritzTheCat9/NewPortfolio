@@ -36,7 +36,7 @@ export type Experience = {
 	company: string;
 	location: string;
 	locationType: string;
-	employment: string;
+	employment: string | null;
 	position: string;
 	from: string;
 	to: string;
@@ -45,6 +45,10 @@ export type Experience = {
 };
 
 export type RawExperience = Omit<Experience, 'skills'> & {
+	skills: SkillIdentifier[];
+};
+
+export type RawEducation = Omit<Experience, 'skills'> & {
 	skills: SkillIdentifier[];
 };
 
@@ -71,27 +75,40 @@ export type Personal = {
 };
 
 export type Sections = {
+	about: string;
 	experience: string;
+	education: string;
 	projects: string;
 	courses: string;
 	skills: string;
+	languages: string;
+	hobbies: string;
+};
+
+export type Language = {
+	name: string;
+	level: string;
 };
 
 export type CV = {
 	sections: Sections;
-	personal: Personal;
+	about: Personal;
 
 	allSkills: Skill[];
 
 	skills: SkillGroup[];
 	experience: Experience[];
+	education: Experience[];
 	projects: Project[];
 	courses: Course[];
+	languages: Language[];
+	hobbies: string[];
 };
 
-export type RawCV = Omit<CV, 'skills' | 'experience' | 'projects'> & {
+export type RawCV = Omit<CV, 'skills' | 'experience' | 'education' | 'projects'> & {
 	skills: RawSkillGroup[];
 	experience: RawExperience[];
+	education: RawEducation[];
 	projects: RawProject[];
 };
 
